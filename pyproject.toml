@@ -13,7 +13,9 @@ dependencies = [
     "numpy",
     "matplotlib",
     "Pillow",
-    "sentence-transformers"
+    "sentence-transformers",
+    "ipykernel",
+    "jupyter",
 ]
 
 [tool.poetry]
