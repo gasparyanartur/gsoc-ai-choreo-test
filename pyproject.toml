@@ -1,0 +1,24 @@
+[project]
+name = "gsoc-ai-choreo-test"
+authors = [{name = "Artur Gasparyan", email = "gasparyanartur99@gmail.com"}]
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "A test project for GSoC AI Choreo"
+license = { text = "MIT" }
+readme = "README.md"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "Pillow",
+    "sentence-transformers"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
