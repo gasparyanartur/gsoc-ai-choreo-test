@@ -16,6 +16,7 @@ dependencies = [
     "sentence-transformers",
     "ipykernel",
     "jupyter",
+    "pyqt6 (>=6.8.1,<7.0.0)",
 ]
 
 [tool.poetry]
